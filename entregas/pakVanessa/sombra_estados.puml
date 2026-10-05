@@ -1,0 +1,9 @@
+@startuml
+
+[*] --> SinSombra
+
+SinSombra --> Sombra : aparece una sombra
+
+Sombra --> [*]
+
+@enduml

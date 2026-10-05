@@ -1,0 +1,9 @@
+@startuml
+
+[*] --> SinEmpatia
+
+SinEmpatia --> Empatizando : comprende a otra persona
+
+Empatizando --> [*]
+
+@enduml

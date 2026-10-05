@@ -1,0 +1,9 @@
+@startuml
+
+[*] --> SinAura
+
+SinAura --> Farmeando : comienza a farmear
+
+Farmeando --> [*]
+
+@enduml
