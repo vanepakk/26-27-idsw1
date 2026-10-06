@@ -2,7 +2,8 @@
 
 [*] --> SinEmpatia
 
-SinEmpatia --> Empatizando : comprende a otra persona
+SinEmpatia --> Percibiendo : observa comportamiento
+Percibiendo --> Empatizando : comprende situación
 
 Empatizando --> [*]
 

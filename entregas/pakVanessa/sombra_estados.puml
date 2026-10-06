@@ -1,9 +1,11 @@
 @startuml
 
-[*] --> SinSombra
+[*] --> SinLuz
 
-SinSombra --> Sombra : aparece una sombra
+SinLuz --> Iluminado : aparece fuente de luz
+Iluminado --> Sombra : objeto bloquea la luz
 
-Sombra --> [*]
+Sombra --> Iluminado : objeto deja de bloquear
+Iluminado --> SinLuz : desaparece la luz
 
 @enduml

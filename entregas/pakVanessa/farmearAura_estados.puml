@@ -2,8 +2,11 @@
 
 [*] --> SinAura
 
-SinAura --> Farmeando : comienza a farmear
+SinAura --> Preparando : decide farmear
+Preparando --> Farmeando : realiza una acción
 
-Farmeando --> [*]
+Farmeando --> GanandoAura : consigue aura
+
+GanandoAura --> [*]
 
 @enduml
